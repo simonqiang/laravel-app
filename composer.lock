@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "aae8664d9f564d958843aece961719b7",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1263,6 +1263,49 @@
                 "uuid"
             ],
             "time": "2018-01-20T00:28:24+00:00"
+        },
+        {
+            "name": "richdynamix/arc",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/richdynamix/arc.git",
+                "reference": "a7b3b8f22179c5fb1e1d4e8a3dbe8340ff6a80d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/richdynamix/arc/zipball/a7b3b8f22179c5fb1e1d4e8a3dbe8340ff6a80d5",
+                "reference": "a7b3b8f22179c5fb1e1d4e8a3dbe8340ff6a80d5",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Richdynamix\\Arc\\ArcServiceProvider"
+                    ],
+                    "aliases": {
+                        "Arc": "Richdynamix\\Arc\\ArcFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Richdynamix\\Arc\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steven Richardson",
+                    "email": "steven@digitonic.co.uk"
+                }
+            ],
+            "description": "Production ready docker based development environment for your Laravel project.",
+            "time": "2017-10-11T08:16:07+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
